@@ -1,5 +1,5 @@
 # blog
-
+here is my journey on vue 
 ## Project setup
 ```
 npm install

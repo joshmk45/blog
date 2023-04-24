@@ -2,15 +2,19 @@
 <div id="app">
 <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
 <HomePage/>
+<AdminPage/>
 </div>
+
 </template>
 
 <script>
-import HomePage from './components/homePage.vue'
+import AdminPage from './components/admin.vue';
+import HomePage from './components/Home.vue'
 export default {
   name: 'App',
   components: {
-    HomePage
+    HomePage,
+    AdminPage,
   }
 }
 </script>
